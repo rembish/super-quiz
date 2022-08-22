@@ -9,7 +9,7 @@ class Pepa(Human):
         print("Pepa said: I'm {0}".format(cls.__name__))
         cls.__super.mynameis()
 
-Pepa._Pepa__super = super(Pepa)
+Pepa._Pepa__super = super(Pepa, Pepa)
 
 class Josef(Pepa):
     pass
